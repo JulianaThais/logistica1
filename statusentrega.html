@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juhs</title>
+    <link rel="stylesheet" href="formataçoes/css/login-style.css">
+    <link rel="stylesheet" href="formataçoes/css/styles.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+
+
+
+
+<body>
+        <!--===== HEADER =====-->
+ <header class="l-header">
+     <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo"><img src="formataçoes/img/foto.png" alt="" srcset=""></a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+        <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+        <li class="nav__item"><a href="novosmotoristas.html" class="nav__link">CadastroMotoristas</a></li>
+        <li class="nav__item"><a href="cadastroveiculos.html" class="nav__link">Veículos</a></li>
+        <li class="nav__item"><a href="index.html" class="nav__link">Contato</a></li>
+        <li class="nav__item"><a href="loginCliente.html" class="nav__link">LoginCliente</a></li>
+        <li class="nav__item"><a href="loginParceiro.html" class="nav__link">LoginParceiro</a></li>
+        </ul>
+       </div>
+
+    </header>
+    <section class="about section" id="about">
+        <div class="about__container bd-grid">
+        <div >
+           <h2 class="about__subtitle">Atualizar status de entrega</h2>
+        <table >
+            <form action="atualizar.php" method="post">
+
+
+        <tr><td >Cep Origem:</td>
+            <td><input type="text" id="cep-o" name="n-cep-o" required/>
+        </tr>
+        <tr><td>Cep Destino:</td>
+            <td><input type="text" id="cep-d" name="n-cep-d" required/>
+        </tr>
+        <tr><td>Status de Envio:</td>
+             <td> <select name="statserv" id="statserv">
+                <option value="1100">Objeto recebido na unidade de distribuição</option>
+                <option value="1101">Objeto saiu para entrega ao destinatário</option>
+                <option value="1102">Objeto entregue ao destinatário</option>
+                <option value="1103">Objeto devolvido ao remetente</option>
+                <option value="1104">A entrega não pode ser efetuada</option>
+            </select>
+        </tr>
+        <td ><button type="submit">Atualizar</button></td>
+            </form>
+        </table>
+        </body>
+        </div>
+         <div>
+            <p class="about__text">Muito obrigada por sua parceria!
+            </p>
+              <div class="skills__img">
+            <img src="formataçoes/img/perfil.png" alt="">
+        </div>
+        </div>
+
+        </section>
+
+
+</body>
+     <!--===== FOOTER =====-->
+         <footer class="footer section">
+            <div class="footer__container bd-grid">
+            <div class="footer__data">
+            <h2 class="footer__title">JUHS</h2>
+            <p class="footer__text">A tecnologia para sua Transportadora</p>
+            </footer>
+ <!--===== MAIN JS =====-->
+            <script src="formataçoes/js/main.js"></script>
+            <script src="formataçoes/js/app.js"></script>
+    </html>
+    </div>

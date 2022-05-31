@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="formataçoes/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>JUHS </title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo"><img src="formataçoes/img/foto.png" alt="" srcset=""></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Detalhes</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                        <li class="nav__item"><a href="loginCliente.html" class="nav__link">LoginCliente</a></li>
+                        <li class="nav__item"><a href="loginParceiro.html" class="nav__link">LoginParceiro</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>Juhs</span><br></h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-chevrons-down' ></i></a>
+                    </div>
+
+                    <img src="formataçoes/img/perfil.png" alt="" class="home__img">
+                </div>
+            </section>
+              <!--===== SOBRE =====-->
+            <section class="about section" id="about">
+                <h3 class="section-title">Sobre</h3>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="formataçoes/img/perfil.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">Nós somos as Juhs</h2>
+                        <p class="about__text">Uma empresa focada em entregas. 
+                            Trabalhamos com aplicativos e sistemas Web.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== DETALHES =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Detalhes</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Opções</h3>
+                        <a href="novosmotoristas.html" class="skills__name">Novos Motoristas</a>
+                        <a href="cadastroveiculos.html" class="skills__name">Cadastro Veículos</a>
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="formataçoes/img/perfil.png" alt="">
+                    </div>
+                </div>
+            </section>
+<!--===== CONTATO =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contato</h2>
+                <h2 >Para duvidas ou cancelamentos de contas, preencha esse formulário que responderemos o mais breve possivel.</h2>
+   <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">info@email.com</span>
+
+                        <h3 class="contact__subtitle">Telefone</h3>
+                        <span class="contact__text">31 99999-9999</span>
+
+                        <h3 class="contact__subtitle">Endereço</h3>
+                        <span class="contact__text">Av.sem nome,9999 - Belo/MG</span>
+                    </div>
+
+                    <form class="contact__form" method="post" action="contatos.php">
+                        <div class="contact__inputs">
+                            <input name="name" type="text" placeholder="nome" id ="name" class="contact__input">
+                            <input name="e_mail" type="mail" placeholder="mail"  id="email" class="contact__input">
+                        </div>
+
+                        <textarea name="Message"  cols="0" rows="10" class="contact__input"></textarea>
+
+                        <input type="submit" value="Enviar" class="contact__button">
+                    </form>
+                </div>
+            </section>
+        </main>
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">JUHS</h2>
+                <p class="footer__text">A tecnologia para sua Transportadora</p>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">FOLLOW</h2>
+                <a href="#" class="footer__social"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+    <!--===== MAIN JS =====-->
+    <script src="formataçoes/js/main.js"></script>
+</body>
+</html>
+</div>

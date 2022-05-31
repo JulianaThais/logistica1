@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="formataçoes/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>JUHS </title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+         <nav class="nav bd-grid">
+        <div>
+         <a href="#" class="nav__logo"><img src="formataçoes/img/foto.png" alt="" srcset=""></a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+         <ul class="nav__list">
+           <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+           <li class="nav__item"><a href="novosmotoristas.html" class="nav__link">CadastroMotoristas</a></li>
+           <li class="nav__item"><a href="cadastroveiculos.html" class="nav__link">Veículos</a></li>
+           <li class="nav__item"><a href="index.html" class="nav__link">Contato</a></li>
+           <li class="nav__item"><a href="loginCliente.html" class="nav__link">LoginCliente</a></li>
+           <li class="nav__item"><a href="loginParceiro.html" class="nav__link">LoginParceiro</a></li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+           <i class='bx bx-menu'></i>
+        </div>
+        </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+             <h1 class="home__title"><span>Cadastro de </span><br></h1>
+             <div class="home__scroll">
+             <h1 class="home__title"><span>Motoristas</span><br></h1>
+            </div>
+            <div class="home__scroll">
+               <a href="#about" class="home__scroll-link"><i class='bx bx-chevrons-down' ></i></a>
+            </div>
+               <img src="formataçoes/img/perfil.png" alt="" class="home__img">
+            </div>
+            </section>
+
+            <!--===== SOBRE =====-->
+            <section class="about section" id="about">
+            <div class="about__container bd-grid">
+            <div >
+               <h2 class="about__subtitle">DOCUMENTOS NECESSARIOS:
+                CNH,Documento do Veículo e
+                Comprovante de Endereço.</h2>
+            <table >
+              <form class="form"method="post" action="nvmotorista.php">
+            <tr><td >CPF:</td>
+                <td><input name="CPF" type="text" id="CPF" />
+            </tr>
+            <tr><td>Nome:</td>
+                <td><input name="nome" type="text" id="nome"  />
+            </tr>
+            <tr><td>Data de Nascimento:</td>
+                 <td><input name="nascimento" type="text" id="nascimento"  />
+            </tr>
+            <tr><td>Nome da Mãe:</td>
+                 <td><input name="mae" type="text" id="mae"  />
+            </tr>
+           <tr><td>Endereço:</td>
+                 <td><input name="endereço" type="text" id="endereço"  />
+            </tr>
+            <tr><td>Email:</td>
+                 <td><input name="email" type="text" id="email"  />
+            </tr>
+            <tr><td>Telefone de Contato</td>
+                 <td><input name="telefone" type="text" id="telefone"  />
+            </tr>
+            <tr><td>senha:</td>
+                <td><input name="senha" type="text" id="senha"  />
+            </tr>
+                <td ><button>Cadastrar</button></td>
+            </form>
+            </table>
+            </body>
+            </div>
+             <div>
+                <p class="about__text">ATENÇÃO!
+                Para aprovacao, todos os campos devem ser devidamente preenchidos.
+                </p>
+            <div class="skills__img">
+                <img src="formataçoes/img/perfil.png" alt="">
+            </div>
+            </div>
+            </section>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">JUHS</h2>
+                    <p class="footer__text">A tecnologia para sua Transportadora</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+
+
+            </div>
+        </footer>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--===== MAIN JS =====-->
+        <script src="formataçoes/js/main.js"></script>
+    </body>
+</html>
+</div>
